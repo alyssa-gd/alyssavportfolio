@@ -1,0 +1,213 @@
+   @charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body{
+        background-color: #5CE1E6;
+        text-align: center; 
+    }
+    h1{
+        color: black; 
+        font-size: 130px;
+    }
+
+    h2{
+        color: black; 
+        font-size: 70px;
+    }
+
+    .texthead {
+        line-height: 0;    
+    }
+
+    p{
+        color: black; 
+        font-size: 20px;
+    }
+    img{
+        width: 500px;
+        height: auto;
+    }
+    .button{
+        background-color: #0097B2;
+        border: none;
+        color: none;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 1px 4px;
+    }
+    .button2 {
+        background-color: white; 
+        color: black; 
+        border: none;
+        border-radius: 40px;
+}
+
+    .button2:hover {
+        background-color: black;
+        color: white;
+        
+}
+
+    .logo {
+        position: absolute;
+        float: left;
+        
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .writing{
+        width: 50%;
+        border: 1px solid black;
+        margin: auto;
+        background-color: white;
+        opacity: 0.6;
+    }
+    .headbtn{
+        position: absolute;
+        left: 50px;
+    }
+    .backtran{
+        left: 0;
+        top: 200px;
+        width: 100%;
+        min-width: 1000px;
+        min-height: 225px;
+        position: absolute;background-color: white;
+        opacity: 0.6;
+    }
+    .clicked-button1{
+        background-color:#5CE1E6;
+        color:#0097B2;
+    }
+    .clicked-button2{
+        background-color:#0097B2;
+        color:white;
+    }
+    .clicked-button3{
+        background-color:white;
+        color:#38B6FF;
+    }
+    .clicked-button4{
+        background-color:#5CE1E6;
+        color:white;
+    }
+    
+    .montserrat {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 102;
+      font-style: normal;
+    font-family: regular;
+    }
+    .bebas-neue {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    font-family: bold;
+    }
+
+    .input[type=text], textarea {
+        width: auto;
+        padding: 12px;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+    
+    .ravens{
+        margin: auto;
+    }
+
+    .special-text{
+        color: white;
+        font-size: 18px;
+    }
+
+    .margin{
+        display: grid;
+        grid-template-columns: auto;
+        border: 1px solid white;
+        padding: 50px;
+        grid-gap: 20px;
+        border-radius: 25px;
+        margin-top: 50px; }
+    }
+
+    .margin2{
+        display: grid;
+        grid-template-columns: auto;
+        border: 1px solid white;
+        padding: 50px;
+        grid-gap: 24px;
+        border-radius: 25px;
+        margin-top: 50px; 
+    }
+
+    .margin4{
+        display: grid;
+        grid-template-columns: auto;
+        border: 1px solid white;
+        padding: 50px;
+        grid-gap: 24px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+
+    .float {
+        float: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .float2 {
+        float: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .mad {
+        display: flex;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .mad2 {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .float3 {
+        float: left;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+
+
+
+        
+
+    
+
